@@ -96,7 +96,21 @@ nodeNestloop.o: nodeNestloop.c ../../../src/include/postgres.h \
  ../../../src/include/catalog/pg_index_d.h \
  ../../../src/include/catalog/pg_publication.h \
  ../../../src/include/catalog/pg_publication_d.h \
- ../../../src/include/rewrite/prs2lock.h
+ ../../../src/include/rewrite/prs2lock.h \
+ ../../../src/include/executor/hashjoin.h \
+ ../../../src/include/storage/barrier.h \
+ ../../../src/include/storage/buffile.h \
+ ../../../src/include/storage/lwlock.h \
+ ../../../src/include/storage/lwlocknames.h \
+ ../../../src/include/executor/nodeHash.h \
+ ../../../src/include/access/parallel.h ../../../src/include/lib/ilist.h \
+ ../../../src/include/postmaster/bgworker.h \
+ ../../../src/include/storage/shm_mq.h \
+ ../../../src/include/storage/proc.h ../../../src/include/access/clog.h \
+ ../../../src/include/storage/latch.h ../../../src/include/storage/lock.h \
+ ../../../src/include/storage/shmem.h \
+ ../../../src/include/storage/pg_sema.h \
+ ../../../src/include/storage/shm_toc.h
 
 ../../../src/include/postgres.h:
 
@@ -329,3 +343,37 @@ nodeNestloop.o: nodeNestloop.c ../../../src/include/postgres.h \
 ../../../src/include/catalog/pg_publication_d.h:
 
 ../../../src/include/rewrite/prs2lock.h:
+
+../../../src/include/executor/hashjoin.h:
+
+../../../src/include/storage/barrier.h:
+
+../../../src/include/storage/buffile.h:
+
+../../../src/include/storage/lwlock.h:
+
+../../../src/include/storage/lwlocknames.h:
+
+../../../src/include/executor/nodeHash.h:
+
+../../../src/include/access/parallel.h:
+
+../../../src/include/lib/ilist.h:
+
+../../../src/include/postmaster/bgworker.h:
+
+../../../src/include/storage/shm_mq.h:
+
+../../../src/include/storage/proc.h:
+
+../../../src/include/access/clog.h:
+
+../../../src/include/storage/latch.h:
+
+../../../src/include/storage/lock.h:
+
+../../../src/include/storage/shmem.h:
+
+../../../src/include/storage/pg_sema.h:
+
+../../../src/include/storage/shm_toc.h:
